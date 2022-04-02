@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +40,7 @@ nav ul li {
 nav ul li a img:hover {
   background-color: #009270;
 }
+
 nav ul li a:hover {
   background-color: rgb(228, 221, 221);
 }
@@ -79,12 +79,13 @@ nav ul li ul li {
   margin: 10px;
 }
 
-table{
+table {
   color: black;
 }
 
-table td:hover{
-  background-color:rgb(228, 221, 221); ;
+table td:hover {
+  background-color: rgb(228, 221, 221);
+  ;
 }
 
 #nav-2 {
@@ -97,22 +98,22 @@ table td:hover{
   padding: 10px 0px;
 }
 
-#nav-2 li{
+#nav-2 li {
   margin-right: 15px;
   margin-left: 15px;
 }
 
 
-#nav-2 li a:hover{
+#nav-2 li a:hover {
   background-color: rgb(27, 24, 24);
 }
 
-#container{
+#container {
   display: flex;
   margin: auto;
 }
 
-#f-match{
+#f-match {
   display: inline-block;
   background-color: white;
   width: 980px;
@@ -121,33 +122,34 @@ table td:hover{
   margin: auto;
 
 }
-#f-match h4{
+
+#f-match h4 {
   display: inline-block;
   margin-bottom: 10px;
   color: #009270;
 
 }
 
-.m-score{
+.m-score {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(1,100px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 100px);
   gap: 0px;
 }
 
-.m-score div{
+.m-score div {
   background-color: white;
   padding: 20px;
   border-right: 1.5px solid rgba(66, 61, 61, 0.815);
 }
 
-.m-score div p{
-font-size: 12px;
-color: rgb(12, 12, 12);
-margin: 6px;
+.m-score div p {
+  font-size: 12px;
+  color: rgb(12, 12, 12);
+  margin: 6px;
 }
 
-#ipl{
+#ipl {
   display: flex;
   width: 980px;
   margin: auto;
@@ -160,20 +162,20 @@ margin: 6px;
   margin-bottom: 5px;
 }
 
-#ipl div{
+#ipl div {
   margin-left: 15px;
 }
 
-#ipl div a{
+#ipl div a {
   text-decoration: none;
   color: #187EE5;
 }
 
-#ipl div a:hover{
+#ipl div a:hover {
   text-decoration: underline;
 }
 
-#news-dec{
+#news-dec {
   display: flex;
   margin: auto;
   width: 980px;
@@ -182,58 +184,56 @@ margin: 6px;
 
 }
 
-#news-dec div{
+#news-dec div {
   background-color: white;
 }
 
-#news-dec div:nth-child(1){
+#news-dec div:nth-child(1) {
   width: 20%;
-  
+
 }
 
-#news-dec div:nth-child(2){
+#news-dec div:nth-child(2) {
   width: 50%;
   margin: 0px 5px 0px 5px;
   box-sizing: border-box;
 }
 
-#news-dec div:nth-child(3){
+#news-dec div:nth-child(3) {
   width: 30%
-
-  
 }
 
-#news-dec .sub-div div{
+#news-dec .sub-div div {
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
 }
 
-#news-dec .sub-div div p{
+#news-dec .sub-div div p {
   margin-top: 20px;
   margin-bottom: 3px;
 }
 
-#news-dec .sub-div div h6{
+#news-dec .sub-div div h6 {
   margin-bottom: 8px;
 }
 
-#news-dec .sub-div div a{
+#news-dec .sub-div div a {
   text-decoration: none;
   color: rgb(24, 23, 23);
   font-size: 14px;
 }
 
-#news-dec .sub-div div a:hover{
+#news-dec .sub-div div a:hover {
   text-decoration: underline;
 }
 
-.div2-img{
+.div2-img {
   margin: auto;
   padding: 15px;
 }
 
-.div2-img img{
+.div2-img img {
   height: 250px;
   width: 465px;
   justify-content: center;
@@ -241,32 +241,69 @@ margin: 6px;
   align-items: center;
 }
 
-.heading-link{
-text-decoration: none;
-font-size: 25px;
-font-weight: bold;
-color: black;
+.heading-link {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
 }
 
-.heading-link:hover{
+.heading-link:hover {
   text-decoration: underline;
 }
 
-.div2-des-p{
-  margin: 10px 10px 10px 0px ;
+.div2-des-p {
+  margin: 10px 10px 10px 0px;
 }
 
-.latest-photo img{
+.latest-photo img {
   border-radius: 5px;
   margin-top: 1px;
 }
 
-.more-videos img, .specials img{
+.more-videos img,
+.specials img {
   width: 100%;
   margin-top: 10px;
 }
 
-.featured-video-p{
+.featured-video-p {
   font-size: 20px;
   font-weight: bold;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 280px;
+  background-color: #4A4A4A;
+  padding-top: 30px;
+  color: white;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 980px;
+  margin: auto;
+}
+
+.footer-div img {
+  width: 101px;
+  margin-top: -20px;
+  margin-right: 30px;
+}
+
+.footer-div div a {
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.footer-div div:nth-child(1) {
+  display: flex;
+  justify-content: right;
 }
