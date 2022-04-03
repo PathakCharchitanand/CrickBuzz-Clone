@@ -307,3 +307,7 @@ footer {
   display: flex;
   justify-content: right;
 }
+
+.ipl2{
+  font-weight: bold;
+}
